@@ -1,0 +1,240 @@
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+body {
+  padding: 0;
+  background-color: #f2f2f2;
+
+  font-family: "Montserrat", sans-serif;
+}
+.img1 {
+  width: 170px;
+  height: 176px;
+  border-radius: 12px;
+}
+.img {
+  width: 300px;
+  height: 166px;
+  border-radius: 12px;
+}
+.img_two {
+  width: 250px;
+  height: 50px;
+  border-radius: 12px;
+  margin-left: 10px;
+}
+ul li {
+  list-style: none;
+}
+p,
+h3,
+span {
+  padding-left: 25px;
+}
+header {
+  display: flex;
+  background-color: white;
+  margin-top: 15px;
+  padding: 25px;
+  border-radius: 12px;
+
+  box-shadow: initial;
+}
+
+.flex {
+  display: flex;
+  justify-content: space-between;
+}
+.flex__two__two {
+  display: flex;
+  justify-content: space-between;
+}
+.flex__two_range {
+  display: flex;
+  margin-left: -25px;
+}
+.flex__two {
+  display: flex;
+}
+
+.label {
+  width: 119.25px;
+  height: 84px;
+  background-color: rosybrown;
+  margin-left: 25px;
+}
+.max {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.container {
+  display: grid;
+  margin-top: 5px;
+  grid-template-rows: auto;
+  grid-template-columns: auto auto auto auto auto;
+  gap: 10px;
+  grid-template-areas:
+    "side1 side2 side2"
+    "side1 side2 side2"
+    "side3 side4 side4"
+    "sidefooter sidefooter sidefooter";
+}
+
+.side1 {
+  background-color: white;
+
+  grid-area: side1;
+  width: 100%;
+
+  border-radius: 12px;
+}
+.side2 {
+  background-color: white;
+
+  grid-area: side2;
+  width: 100%;
+
+  border-radius: 12px;
+}
+.side3 {
+  background-color: white;
+
+  grid-area: side3;
+  width: 100%;
+  height: auto;
+
+  border-radius: 12px;
+}
+.side4 {
+  background-color: white;
+
+  grid-area: side4;
+  width: 100%;
+  height: auto;
+
+  border-radius: 12px;
+}
+.sidefooter {
+  background-color: white;
+
+  grid-area: sidefooter;
+  width: 100%;
+
+  height: 100px;
+
+  border-radius: 12px;
+}
+
+a {
+  text-decoration: none;
+  margin-top: -10px;
+  margin-left: 25px;
+}
+
+.myButton {
+  background-color: #ffffff;
+  border-radius: 12px;
+  border: 1px solid #4f4f4f;
+  display: inline-block;
+  cursor: pointer;
+  color: #666666;
+  font-family: Arial;
+  font-size: 15px;
+  font-weight: bold;
+  padding: 6px 24px;
+  text-decoration: none;
+}
+
+.For__response-btn {
+  background-color: #2f80ed;
+  border-radius: 12px;
+  border: 1px solid #4f4f4f;
+  display: inline-block;
+  cursor: pointer;
+  color: #666666;
+  font-family: Arial;
+  font-size: 15px;
+  font-weight: bold;
+  padding: 6px 24px;
+  text-decoration: none;
+}
+
+.flex_gap > div {
+  margin: 5px;
+}
+.for_project {
+  width: 90%;
+  padding: 14px;
+}
+
+.one {
+  background-color: purple;
+  height: auto;
+  width: 100%;
+
+  border-radius: 12px;
+}
+
+.two {
+  background-color: yellow;
+  height: auto;
+  width: 100%;
+
+  border-radius: 12px;
+}
+
+.three {
+  background-color: cyan;
+  height: auto;
+  width: 100%;
+
+  border-radius: 12px;
+}
+.flex1 {
+  display: flex;
+  justify-content: space-around;
+  padding: 10px;
+  margin-left: -17px;
+}
+.myButton__two {
+  background-color: #2f80ed;
+  border-radius: 10px;
+  display: inline-block;
+  cursor: pointer;
+  color: #ffffff;
+  font-family: Arial;
+  font-size: 15px;
+  padding: 10px 25px;
+  text-decoration: none;
+}
+.myButton-two {
+  background-color: #ffffff;
+  border-radius: 10px;
+  border: 1px solid #2f80ed;
+  display: inline-block;
+  cursor: pointer;
+  color: #2f80ed;
+  font-family: Arial;
+  font-size: 15px;
+  padding: 10px 25px;
+  text-decoration: none;
+}
+
+@media screen and (max-width: 600px) {
+  header,
+  .container,
+  .flex__two,
+  .flex {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+
+    max-width: 100%;
+    margin: 0 auto;
+  }
+
+  /*LOVE WINS ALL*/
+}
