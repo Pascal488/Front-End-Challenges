@@ -1,0 +1,129 @@
+/*For Desktop*/
+
+*{
+    box-sizing: border-box;
+    background-color:#181719;
+}
+.container{
+    display: flex;
+
+}
+.container5{
+    display: none;
+}
+
+h1{
+    font-family: 'Lora', serif;
+    font-size: 48px;
+
+}
+h2{
+    font-family: 'Lora', serif;
+    position: relative;
+    left: -40px;
+    top: 60px;
+}
+.tag2{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+    color: #828282;
+}
+i{
+    color: white;
+}
+p{
+    font-size: 24px;
+    font-family: 'Montserrat', sans-serif;
+}
+span{
+    font-family: 'Montserrat', sans-serif;
+ 
+font-weight: bold;
+font-size: 18px;
+line-height: 22px;
+}
+nav{
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+li{
+    list-style: none;
+}
+img{
+    width: 100%;
+}
+.border{
+    font-weight: bold;
+    border-bottom: outset;
+    border-bottom: 2px solid #FFFFFF;
+
+}
+.start{
+    position: relative;
+    top: 45px;
+    border-style: outset;
+    width: fit-content;
+    padding: 10px;
+    border: 1px solid #FFFFFF;
+    font-family: 'Crimson Pro', serif;
+    
+}
+.end{
+    display: inline;
+    position: relative;
+    font-family: 'Montserrat', sans-serif;
+    padding: 10px;
+    right: -905px;
+    float: left;
+    
+}
+.pics{
+   position: relative;
+   right: 40px;
+   z-index: 1;
+}
+.content{
+    position: relative;
+    top: 50px;
+    right: 300px;
+    padding: 10px;
+    
+    
+}
+.container2{
+    display: flex;
+    position: relative;
+    color: white;
+    top: 200px;
+    max-width: 1000px;
+    object-fit: cover;
+}
+.final{
+    position: relative;
+    top: -70px;
+    left: 25%;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    width: 310px;
+    height: 159px;
+    z-index: 2;
+}
+.radius{
+    float: left;
+    width: 50px;
+    border-radius: 50%;
+    padding: 5px;
+}
+
+.tag{
+position: absolute;
+top: 10px;
+left: 100px;
+font-family: 'Montserrat', sans-serif;
+font-size: 14px;
+
+}
+
+
+
+
+

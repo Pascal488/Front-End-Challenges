@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.7/css/all.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Crimson+Pro:wght@200&family=Lora:wght@500&family=Montserrat&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="./Css/style.css">
+  <link rel="stylesheet" href="./Css/max-width1024.css">
+  <link rel="stylesheet" href="Css/max-width700.css">
+  <title>Interior Consultant</title>
+</head>
+
+<body>
+  <div class="container">
+    <!--Fun one i hard coded a nav to be responsive-->
+    <nav>
+      <div>
+        <ul class="none">
+          <li class="start">This Interior</li>
+          <li class="end border">Home</li>
+          <li class="end">Collection</li>
+          <li class="end">About</li>
+          <li class="end">Contact</li>
+        </ul>
+      </div>
+    </nav>
+
+    <!--Nav bar for the devices having a with of 700px and below => (Less than 700px)  -->
+    <div class="container5">
+      <div class="nav">
+        <ul>
+          <li class="star">This Interior</li>
+        </ul>
+        <ul>
+          <li class="plus" onclick="openMenu()"> ☰</li>
+        </ul>
+      </div>
+      <div class="menu">
+        <div class="wraper">
+          <ul>
+            <li class="border">Home</li>
+            <li>Collection</li>
+            <li>About</li>
+            <li>Contact</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="container2">
+      <div class="content">
+        <h1>Modern interior</h1>
+        <p>
+          A full-Service residential & commercial interior design and staging company offering professional organizing &
+          eco-services.
+        </p>
+        <span>Read more <i class="fas fa-long-arrow-alt-right"></i></span>
+      </div>
+      <div class="pics">
+        <img src="./Img/photo1.png" alt="" class="fit">
+        <div class="final">
+          <ol>
+            <li> <img src="./Img/photo2.png" alt="" class="radius"></li>
+            <li class="tag">Aliza Webber <br> <span class="tag2">Interior designer</span> </li>
+          </ol>
+          <h2>Designed in 2020 by Aliza Webber</h2>
+        </div>
+      </div>
+    </div>
+
+  </div>
+  <div>
+  </div>
+  <script src="index.js" defer></script>
+</body>
+<!--LOVE WINS ALL-->
+</html>

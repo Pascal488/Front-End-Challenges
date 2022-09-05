@@ -1,0 +1,78 @@
+@media (max-width: 1024px) {
+    body{
+        overflow-x: hidden;
+
+    }
+    .container{
+        display: flex;
+        flex-wrap: wrap;
+
+    
+    }
+   
+    .end{
+        display: flex;
+        justify-content: flex-end;
+        padding:10px;
+        position: relative;
+        top: 10px;
+        right: -400px;
+        float: left;
+    }
+
+    .container5{
+        display: none;
+    }
+
+    .border{
+        font-weight: bold;
+        border-bottom: outset;
+        border-bottom: 2px solid #FFFFFF;
+    
+    }
+    .start{
+        position: relative;
+        top: 45px;
+        border-style: outset;
+        width: fit-content;
+        padding: 10px;
+        border: 1px solid #FFFFFF;
+        font-family: 'Crimson Pro', serif;
+        
+    }
+    
+    .pics{
+       position: absolute;
+       right: 40px;
+       top: 300px;
+       z-index: 1;
+    }
+    .content{
+        position: relative;
+        top: 30px;
+        left: 30px;
+        padding: 5px;
+        
+        
+    }
+    .container2{
+        display: flex;
+        position: relative;
+        color: white;
+        top: 200px;
+        max-width: 800px;
+        object-fit: cover;
+    }
+    .final{
+        position: relative;
+        top: -90px;
+        left: 25%;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        width: 310px;
+        height: 159px;
+        z-index: 2;
+    }
+  
+    
+   
+}
