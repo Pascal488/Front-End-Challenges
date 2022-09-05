@@ -1,0 +1,554 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0 auto;
+  padding: 0;
+  font-family: "Poppins";
+  font-size: 1.3rem;
+}
+/* Customize a scrollbar*/
+::-webkit-scrollbar {
+  width: 0px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+  background: white;
+}
+/* Customize a scrollbar*/
+.bottom {
+  margin-bottom: 60px;
+}
+/* Images images */
+.hero__img {
+  max-width: 100%;
+  border-radius: 18px;
+  margin: 0;
+  padding: 0;
+}
+.smart__img {
+  max-width: 100%;
+  border-radius: 20px;
+  margin: 0;
+  padding: 0;
+}
+.persons {
+  max-width: 100%;
+  border-radius: 24px;
+}
+.person4 {
+  max-width: 50%;
+  border-radius: 12px;
+}
+/* Images images */
+
+.container {
+  width: 80%;
+  max-width: 1100px;
+}
+
+header {
+  background: white;
+  padding: 1em 0;
+  text-align: center;
+}
+
+.nav {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  position: relative;
+  top: 0;
+}
+.nav__item,
+.nav__link {
+  text-transform: capitalize;
+  text-decoration: none;
+  list-style: none;
+  float: left;
+  padding: 5px;
+
+  color: #333333;
+}
+.nav-toggle {
+  cursor: pointer;
+  border: 0;
+  width: 3rem;
+  height: 3rem;
+  padding: 0em;
+  color: white;
+  background-color: white;
+  transition: opacity 250ms ease;
+
+  position: absolute;
+  right: 0;
+}
+
+.nav-toggle:focus,
+.nav-toggle:hover {
+  opacity: 0.75;
+}
+
+.hamburger {
+  width: 50%;
+  position: relative;
+}
+
+.hamburger,
+.hamburger::before,
+.hamburger::after {
+  display: block;
+  margin: 0 auto;
+  height: 3px;
+  background: black;
+}
+
+.hamburger::before,
+.hamburger::after {
+  content: "";
+  width: 100%;
+}
+
+.hamburger::before {
+  transform: translateY(-6px);
+}
+
+.hamburger::after {
+  transform: translateY(3px);
+}
+
+.nav {
+  visibility: hidden;
+  height: 0;
+  position: absolute;
+}
+
+.nav--visible {
+  visibility: visible;
+  height: auto;
+  position: relative;
+}
+
+.logo {
+  display: flex;
+  justify-content: flex-start;
+  text-decoration: none;
+  align-items: center;
+  position: relative;
+  top: 10px;
+  left: 10px;
+}
+main {
+  width: 80%;
+  margin: 0 auto;
+}
+.one__sec {
+  margin-top: 48px;
+  text-align: left;
+}
+input {
+  width: 291px;
+  border-radius: 12px;
+  border: none;
+  padding: 17px;
+  background: #f2f2f2;
+}
+.cards {
+  font-size: 16px;
+}
+.myButton {
+  background-color: #2d9cdb;
+  border-radius: 12px;
+  display: inline-block;
+  cursor: pointer;
+  color: #f2f2f2;
+  font-size: 17px;
+  padding: 12px 23px;
+  text-decoration: none;
+  position: relative;
+  top: -46px;
+  left: 70%;
+}
+.myButton6 {
+  background-color: #2d9cdb;
+  border-radius: 12px;
+  display: inline-block;
+  cursor: pointer;
+  color: #f2f2f2;
+  font-size: 17px;
+  padding: 13px 23px;
+  text-decoration: none;
+  position: relative;
+  top: -48px;
+  left: 65%;
+}
+
+.card__one {
+  width: 100%;
+  height: auto;
+}
+.material-icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  font-size: 35px;
+}
+.icon__1 {
+  width: 67px;
+  height: 67px;
+  background-color: #2d9cdb;
+  color: white;
+  border-radius: 16px;
+}
+
+.myButton2 {
+  background-color: #e0e0e0;
+  border-radius: 12px;
+  display: inline-block;
+  cursor: pointer;
+  color: white;
+  font-size: 17px;
+  padding: 11px 34px;
+  text-decoration: none;
+}
+.icon__2 {
+  width: 67px;
+  height: 67px;
+  background-color: #27ae60;
+  color: white;
+  border-radius: 16px;
+  font-size: 30px;
+  margin-top: 10px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card__two {
+  width: 100%;
+  background-color: #ffffff;
+  padding: 15px;
+
+  box-shadow: 0px 10px 30px rgba(51, 51, 51, 0.1);
+  border-radius: 24px;
+}
+.myButton3 {
+  background-color: #2d9cdb;
+  border-radius: 12px;
+  display: inline-block;
+  cursor: pointer;
+  color: white;
+  font-size: 17px;
+  padding: 11px 34px;
+  text-decoration: none;
+}
+
+.icon__3 {
+  width: 67px;
+  height: 67px;
+  background-color: #eb5757;
+  color: white;
+  border-radius: 16px;
+  font-size: 50px;
+}
+
+.fas {
+  margin-left: 20px;
+  font-size: 20px;
+}
+
+.for__pictures {
+  display: grid;
+  gap: 10px;
+  max-width: 200px;
+  margin-left: -20px;
+  grid-template-areas:
+    "head head sade  sade"
+    "head head sade sade"
+    "head head manu manu";
+}
+
+.red {
+  grid-area: head;
+  width: 178.16px;
+  height: 178.16px;
+  margin-top: 25%;
+}
+.blue {
+  grid-area: sade;
+  width: 145px;
+  height: 145px;
+}
+
+.yellow {
+  grid-area: manu;
+  width: 162.25px;
+  height: 167.03px;
+}
+
+.for__quote {
+  margin-left: -60px;
+}
+
+.for__lastpic {
+  display: flex;
+  margin-left: -25px;
+}
+.for__lastpic span {
+  display: flex;
+  flex-direction: column;
+  margin-left: -40px;
+  padding-top: 10px;
+}
+
+.footer {
+  width: 100%;
+  height: auto;
+  padding: 10px;
+  color: white;
+  background-color: #100e1d;
+}
+
+footer li {
+  list-style: none;
+  margin-bottom: 10px;
+}
+.footer__list {
+  margin-bottom: 10px;
+}
+.footer__icon {
+  display: flex;
+  flex-direction: column;
+  padding: 40px;
+}
+
+footer p {
+  text-align: center;
+}
+.footer__link {
+text-decoration:none;
+  color: #f2f2f2;
+  font-size: 15px;
+}
+.for__footer {
+  padding-left: 30px;
+}
+@media (max-width: 375px) {
+  .myButton6 {
+    position: absolute;
+    top: 50%;
+    left: 18px;
+  }
+}
+
+/* More customization on mobile screen */
+@media (max-width: 600px) {
+  body {
+    padding: 0;
+    margin: 0;
+  }
+  .nav-toggle {
+    position: absolute;
+    top: 20px;
+  }
+
+  .myButton6 {
+    position: relative;
+    top: -10%;
+    left: -18%;
+  }
+
+  .myButton {
+    position: relative;
+    top: -47px;
+    left: 63%;
+  }
+
+  .footer {
+    position: relative;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    width: 100%;
+    height: auto;
+    margin: 0;
+    padding: 0;
+
+    font-family: "Poppins", sans-serif;
+  }
+  .for__footer {
+    position: relative;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+  }
+}
+/*
+===================================
+
+More customization on mobile screen 
+
+==================================
+
+*/
+
+@media (min-width: 800px) {
+  body {
+    padding: 0;
+    margin: 0;
+  }
+  .nav-toggle {
+    display: none;
+  }
+
+  .nav {
+    visibility: visible;
+    display: flex;
+  }
+  .logo {
+    position: relative;
+    top: 10px;
+    left: 50px;
+  }
+  .one__size {
+    position: relative;
+    left: 70px;
+    max-width: 500px;
+  }
+  .to-left {
+    position: relative;
+    left: 65%;
+    top: -65px;
+  }
+  .footer {
+    display: flex;
+    position: relative;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    padding: 60px;
+  }
+  .for__footer {
+    position: absolute;
+    left: 70%;
+
+    max-width: 275px;
+  }
+  .for__footer2 {
+    display: flex;
+    align-self: flex-end;
+    position: absolute;
+    top: 80%;
+    left: 40%;
+  }
+  .one__div {
+    position: relative;
+    left: 70px;
+    max-width: 300px;
+  }
+  blockquote {
+    max-width: 700px;
+    color: #333333;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 40px;
+  }
+  .for_quote {
+    width: 100%;
+    margin: 0 auto;
+  }
+  .card__one {
+    position: relative;
+    left: 20px;
+  }
+  .cards {
+    position: relative;
+    left: 100px;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    max-width: 100%;
+    max-height: 500px;
+    margin-bottom: 60px;
+  }
+
+  .card__two {
+    position: relative;
+    top: 100px;
+    left: -5px;
+    width: 67%;
+    padding: 10px;
+  }
+  .card__three {
+    position: relative;
+    top: 130px;
+    left: 30px;
+  }
+  .smart__img {
+    padding: 0;
+    margin: 0;
+  }
+  .pictures {
+    display: grid;
+    gap: 10px;
+    margin: 0 auto;
+    max-width: 800px;
+    grid-template-areas:
+      "topi topi"
+      "down down";
+    position: relative;
+    top: 50px;
+  }
+  h2 {
+    position: relative;
+    top: 15px;
+    left: 17%;
+  }
+  .top {
+    grid-area: topi;
+  }
+  .down {
+    grid-area: down;
+  }
+  .juu {
+    position: relative;
+    top: -70px;
+  }
+  .flex {
+    display: flex;
+    justify-content: space-around;
+  }
+  .footer__icon {
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+
+    position: relative;
+    left: 30%;
+    top: -60px;
+  }
+
+  .myButton6 {
+    position: relative;
+    top: -48px;
+    left: 86%;
+  }
+}
+
+@media (min-width: 1400px) {
+  body {
+    overflow-x: hidden;
+  }
+}
