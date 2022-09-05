@@ -1,0 +1,287 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Bai Jamjuree', sans-serif;
+}
+
+:root {
+    --Strong-Cyan: hsl(171, 66%, 44%);
+    --Light-Blue: hsl(233, 100%, 69%);
+
+
+    --Dark-Grayish-Blue: hsl(210, 10%, 33%);
+    --Grayish-Blue: hsl(201, 11%, 66%);
+
+}
+
+p,
+h1,
+h2 {
+    padding: 0;
+}
+
+h1,
+h2 {
+    color: var(--Dark-Grayish-Blue);
+}
+
+p {
+    color: var(--Grayish-Blue);
+    margin-bottom: 3em;
+}
+
+img {
+    width: 100%;
+}
+
+li {
+    list-style: none;
+}
+
+header {
+    padding: 10%;
+    text-align: center;
+    background-image: url(./images/bg-header-mobile.png);
+    background-repeat: no-repeat;
+
+}
+
+.section__1 {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.section__2 {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.section__3 {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.logo_hed {
+    width: 50%;
+}
+
+.logos {
+    width: 15%;
+}
+
+.logo {
+    width: 50%;
+    margin-bottom: 3em;
+}
+
+.fas {
+    position: relative;
+    right: 25px;
+    top: 15px;
+    color: ivory;
+}
+
+.fas_ {
+    position: relative;
+    right: -509px;
+    top: -35px;
+}
+
+.fas__ {
+    position: relative;
+    right: -80.6%;
+    top: -28px;
+}
+
+.icon_color {
+    color: var(--Strong-Cyan);
+}
+
+.icon_color:hover {
+    color: var(--Strong-Cyan);
+}
+
+button {
+    border: none;
+    color: white;
+    font-family: 'Bai Jamjuree', sans-serif;
+    padding: 16px 76px;
+    font-size: 17px;
+    border-radius: 28px;
+    margin-left: 1em;
+    margin-bottom: 2em;
+}
+
+.ios {
+    background-color: var(--Strong-Cyan);
+    box-shadow: 15px 10px 90px 0px var(--Strong-Cyan);
+}
+
+.mac {
+    background-color: var(--Light-Blue);
+}
+
+/*FOOTER*/
+footer {
+    padding: 0;
+    background-color: whitesmoke;
+}
+
+.attribution {
+    margin: 0 auto;
+    text-align: center;
+    font-size: 11px;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+
+}
+
+.icon {
+   
+    width: 28px;
+
+   
+}
+
+
+/* MEDIA QUERIES 
+
+   FOR DESK AND MOBILE
+
+*/
+
+
+/*ON DESKTOP */
+@media screen and (min-width:1024px) {
+    .section__2 {
+        max-width: 50%;
+    }
+
+    .left__side {
+        position: relative;
+        left: -180px;
+    }
+
+    .section__3 {
+        width: 100%;
+        padding: 5%;
+
+    }
+    
+    .logos_ {
+        position: relative;
+        left: -90%;
+        width: 15%;
+    }
+
+    p,
+    h1,
+    h2 {
+        padding: 0;
+    }
+
+    header {
+        margin: 0%;
+        width: 100%;
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-image: url(./images/bg-header-desktop.png);
+
+    }
+
+    .logo_hed {
+        width: 10%;
+    }
+
+    .split {
+        display: flex;
+        justify-content: center;
+        margin-left: -3.5%;
+    }
+
+    ul.flot__left li {
+        text-align: left;
+        margin-left: -15%;
+        padding-bottom: 3%;
+    }
+
+    .none__style {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+
+    }
+
+    p span {
+        display: block;
+    }
+
+    /* For footer */
+    .spliter {
+        display: flex;
+        font-size: 13px;
+        justify-content: space-between;
+        position: relative;
+        left: -17%;
+        padding-top: 20px;
+        padding-left: 10px;
+        padding-bottom: 10px;
+        max-width: 19%;
+
+    }
+
+    .logo {
+        width: 60%;
+        margin-bottom: 3em;
+    }
+
+    .icon {
+        position: relative;
+        float: right;
+        top: -35px;
+        right: 15%;
+        margin-left: 2%;
+        width: 15px;
+    }
+
+}
+
+/* FOR MOBILE*/
+@media screen and (max-width:768px) {
+    
+    footer {
+        padding: 10%;
+    }
+
+    li {
+        margin-bottom: 10%;
+
+    }
+
+    .far {
+        display: none;
+    }
+
+    .icon {
+        width: 28px;
+    }
+
+    .logos_ {
+        margin-bottom: 10%;
+        width: 35px;
+    }
+
+    .flex {
+        display: flex;
+        align-items: center;
+        margin-bottom: 10%;
+        justify-content: space-around;
+
+
+    }
+}
