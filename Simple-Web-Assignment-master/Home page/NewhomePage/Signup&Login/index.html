@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://kit.fontawesome.com/64d58efce2.js"
+      crossorigin="anonymous">
+    </script>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+    
+    <title>Sign in & Sign up Form</title>
+  </head>
+  <body>
+    <div class="container" id="login_div">
+      <div class="forms-container">
+        <div class="signin-signup">
+          <form action="#" class="sign-in-form" id="login_div">
+            <h2 class="title">Sign in</h2>
+              <div class="input-field">
+                <i class="fas fa-user"></i>
+                <input type="email" placeholder="Email..." id="email_field"/>
+              </div>
+              <div class="input-field">
+                <i class="fas fa-lock"></i>
+                <input type="password" placeholder="Password..." id="password_field" />
+              </div>
+          <button  class="btn solid" onclick="login()" >Login</button>
+            <p class="social-text">Or Sign in with social platforms</p>
+              <div class="social-media">
+                <a href="#" class="social-icon">
+                  <i class="fab fa-facebook-f"></i>
+                </a>
+                <a href="#" class="social-icon">
+                  <i class="fab fa-twitter"></i>
+                </a>
+                <a href="#" class="social-icon">
+                  <i class="fab fa-google"></i>
+                </a>
+                <a href="#" class="social-icon">
+                  <i class="fab fa-linkedin-in"></i>
+                </a>
+              </div>
+        </form>   
+          <form method="post" class="sign-up-form"  name="SimpleDb" id="sign-up"
+          > 
+            <h2 class="title">Sign up</h2>
+            <div class="input-field">
+              <i class="fas fa-envelope"></i>
+              <input type="email" placeholder="Email" id="email" />
+            </div>
+            <div class="input-field">
+              <i class="fas fa-lock"></i>
+              <input type="password" placeholder="Password" id="password" />
+            </div>
+            <input  class="btn" value="Sign up" onclick="signUp()" type="submit" id="signUp"/>
+            <p class="social-text">Or Sign up with social platforms</p>
+            <div class="social-media">
+              <a href="#" class="social-icon">
+                <i class="fab fa-facebook-f"></i>
+              </a>
+              <a href="#" class="social-icon">
+                <i class="fab fa-twitter"></i>
+              </a>
+              <a href="#" class="social-icon">
+                <i class="fab fa-google"></i>
+              </a>
+              <a href="#" class="social-icon">
+                <i class="fab fa-linkedin-in"></i>
+              </a>
+            </div>
+          </form>
+        </div>
+      </div>
+
+      <div class="panels-container">
+        <div class="panel left-panel">
+          <div class="content">
+            <h3>New here ?</h3>
+            <p>Get start with us,
+              The primary purpose of reading the Bible is not to know the Bible but to know God.
+            </p>
+           <button class="btn transparent" id="sign-up-btn" type="submit">
+              Sign up
+            </button>
+          </div>
+          <img src="img/log.svg" class="image" alt="" />
+        </div>
+        <div class="panel right-panel">
+          <div class="content">
+            <h3>One of us ?</h3>
+            <p>
+              You will be never lonely when you are reading the Bible.
+            </p>
+            <button class="btn transparent" id="sign-in-btn">
+              Sign in
+            </button>
+          </div>
+          <img src="img/register.svg" class="image" alt="" />
+        </div>
+      </div>
+    </div>
+<!--Loged in page containing gospel videos can be accessed after login-->
+    <div id="user_div" class="loggedin-div">
+      <div class="ni-kwamba"> 
+        <marquee><b>WELCOME TO THE GOSPEL MUSIC PLATFORM</b></marquee> 
+      </div>
+
+       <main>
+        <div>
+         <a href="https://www.bible.com/bible/111/GEN.1.NIV"><input type="button" value="Read bible" class="myButton" ></a>  
+    
+        <button onclick="logout()" class="myButto">Logout</button>
+          
+          <div style="grid: 20px" class="iframe"><video width="320" height="240" controls>
+            <source src="../Gospel v/Rehema Simfukwe - Chanzo (Official Music Video)(360P).mp4" type="video/mp4"></video>
+          
+            <iframe width="320" height="240" src="https://www.youtube.com/embed/ckNlEj8PMUI" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            
+            <iframe width="320" height="240" src="https://www.youtube.com/embed/sB8N8HGVKSw" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          
+            <iframe width="320" height="240" src="https://www.youtube.com/embed/Z-NxRoX5H7E" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              
+            <iframe width="320" height="240" src="https://www.youtube.com/embed/Fx8rD-AiWdk" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                
+            <iframe width="320" height="240" src="https://www.youtube.com/embed/a4vREcWnkKM" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            
+            <iframe width="320" height="240" src="https://www.youtube.com/embed/Jcq6ncHUgFM" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            
+            <iframe width="320" height="240" src="https://www.youtube.com/embed/HqGkbzg38Bk" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            
+            <iframe width="320" height="240" src="https://www.youtube.com/embed/_63sznwOwGM" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            
+            <iframe width="320" height="240" src="https://www.youtube.com/embed/qacrR1Bs-xk" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            
+            <iframe width="320" height="240" src="https://www.youtube.com/embed/Vtd6LeuHsuI" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            
+            <iframe width="320" height="240" src="https://www.youtube.com/embed/jlZ6b7toeDs" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            
+            <iframe width="320" height="240" src="https://www.youtube.com/embed/fOYqh2YOfJI" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            
+            <iframe width="320" height="240" src="https://www.youtube.com/embed/y7fKqbA0glw" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            
+            <iframe width="320" height="240" src="https://www.youtube.com/embed/QLxKgBHCIUM" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      
+            <iframe width="320" height="240" src="https://www.youtube.com/embed/5uzZiqM5gIc" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+         </div>
+      </main>
+        <footer>
+      
+          <b>LORD WE PRAISE YOU, WE LIFT UP YOUR POWERFUL NAME</b>
+        
+         </footer>
+      </div>
+
+<!--Script that connect to Firebase Db-->
+    <script src="https://www.gstatic.com/firebasejs/4.8.1/firebase.js"></script>
+    <script>
+      // Your web app's Firebase configuration
+      // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+      var firebaseConfig = {
+        apiKey: "AIzaSyDPcM3TmuB2_5AQ6byLZTLcLyHAyvadVVA",
+        authDomain: "assignment-da75d.firebaseapp.com",
+        projectId: "assignment-da75d",
+        storageBucket: "assignment-da75d.appspot.com",
+        messagingSenderId: "817544430174",
+        appId: "1:817544430174:web:75792e1c544d99bbfceacf",
+        measurementId: "G-C6MXRHTHNL"
+      };
+      // Initialize Firebase
+      firebase.initializeApp(firebaseConfig);
+      firebase.analytics();
+    </script>
+    <script src="app.js"></script>
+  </body>
+
+</html>
