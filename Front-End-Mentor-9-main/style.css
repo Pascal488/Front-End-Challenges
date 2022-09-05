@@ -1,0 +1,187 @@
+/*
+Homies call me FARU
+|=========      
+|                           ======      =       =
+|               **          =     =     =       =
+|=========  *       *       =   ===     =       =
+|        *     ****    *    =     =     =       =
+|           *       *       =      =    =       =
+|           *       *       =      =    =========\\
+                                                   \\
+*/
+
+
+*{
+    box-sizing: border-box;
+    
+}
+:root{
+   --Moderate-violet:  hsl(263, 55%, 52%);
+   --Verydark-grayish: hsl(217, 19%, 35%);
+   --Verydark-blackish:hsl(219, 29%, 14%);
+   --White:hsl(0, 0%, 100%);
+
+
+   --Light-gray:    hsl(0, 0%, 81%);
+   --LightBlue-gray:hsl(210, 46%, 95%);
+}
+body{
+    margin:0 auto;
+    Font-size: 13px;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    background-color: var(--LightBlue-gray);
+}
+.container{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    padding: 13%;
+    grid-template-rows:350px 350px 350px 350px 350px;
+}
+.gap{
+    grid-row-gap: 40px;
+}
+h4{
+    padding-left: 10px;
+    opacity: 50%;
+    font-weight: bold;
+
+}
+p{
+    padding-left: 10%;
+    float: left;
+    
+}
+.lorem{
+    color: var(--Light-gray);
+}
+ul li{
+    float: left;
+    list-style: none;
+    
+}
+
+img{
+    border-radius: 50%;
+}
+.texts{
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 1.5;
+}
+.text{
+    font-weight: 600;
+    font-size: 17px;
+    margin-bottom: 10px;
+    color: var(--Verydark-blackish);
+    line-height: 1.5;
+}
+.grid1{
+    width: 350px;
+    height: 450px;
+    border-radius: 10px;
+    color: var(--White);
+    background-color:var( --Moderate-violet);
+    background-image: url(./images/bg-pattern-quotation.svg);
+    background-repeat: no-repeat;
+    background-position-x: 230px;
+    background-position-y:3px;
+}
+.grid2{
+    width: 350px;
+    height: 300px;
+    color: var(--White);
+    border-radius: 10px;
+    background-color: var(--Verydark-grayish);
+}
+.grid3{
+    width: 350px;
+    height: 375px;
+    border-radius: 10px;
+    font-weight: bold;
+    background-color: var(--White);
+}
+.grid4{
+    width: 350px;
+    height: 320px;
+    border-radius: 10px;
+    color: var(--White);
+    background-color: var(--Verydark-blackish);
+}
+.grid5{
+    width: 350px;
+    height: 450px;
+    border-radius: 10px;
+    background-color: var(--White);
+}
+
+.attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+
+
+@media screen and (min-width:1400px),(min-width:700px){
+    .grid1{grid-area:Header ;}
+    .grid2{grid-area:Main ;}
+    .grid3{grid-area:Side ;}
+    .grid4{grid-area:Siderbar ;}
+    .grid5{grid-area:Section ;}
+    body{
+        margin:0 auto;
+        overflow-y: hidden;
+        overflow-x: auto;
+    }
+    .texts{
+        font-weight: 600;
+        font-size: 19px;
+        line-height: 1.5;
+    }
+    .container{
+        display: grid;
+        justify-content: center;
+        align-items: center;
+        gap: 5px;
+        padding: 0;
+        grid-template-areas: 
+        'Header Header  Header Main  Main  Section'
+        'Side Side Siderbar Siderbar Siderbar  Section'
+        ;
+    }
+
+    .grid1{
+        width: 600px;
+        height: 300px;
+        background-position-x: 450px;
+        background-position-y:5px;
+        font-weight: 600;
+    }
+       
+    
+    .grid2{
+        width: 350px;
+        height: 300px;
+
+       
+    }
+    .grid3{
+        width: 350px;
+        height: 300px;
+        grid-column-start: 1;
+        grid-row-end: 3;
+       
+        
+    }
+    .grid4{
+        width: 600px;
+        height: 300px;
+        grid-row-end: 3;
+        grid-column-start: 3;
+       
+        
+    }
+    .grid5{
+        width: 365px;
+        height: 650px;
+        border-radius: 10px;
+        font-size: 17px;
+    }
+}
