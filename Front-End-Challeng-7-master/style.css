@@ -1,0 +1,225 @@
+body{
+    background-color: var(--clr-primary-darkBlue);
+    font-size: 15px;
+    font-family: var(--font-first);
+
+}
+:root{
+    
+    --clr-primary-darkBlue:hsl(233, 47%, 7%);
+    --clr-primary-Blue:hsl(244, 38%, 16%);
+    --clr-primary-violet:hsl(277, 64%, 61%);
+
+
+    --clr-neutral-mainStat:hsl(0, 0%, 100%);
+    --clr-neutral-main: hsla(0, 0%, 100%, 0.75);
+    --clr-neutral-stat:hsla(0, 0%, 100%, 0.6);
+
+    --font-first: 'Inter', sans-serif;
+    --font-second: 'Lexend Deca', sans-serif;
+    
+}
+
+.container{
+    margin: 0 auto;
+    padding: 10%;
+    display: grid;
+    justify-content: center;
+    grid-template-rows: 300px;  
+    grid-template-columns: 440px 440px;
+    grid-gap:0px;
+
+
+
+
+}
+.uno{
+    background-color:var(--clr-primary-Blue);
+    padding: 18px;
+    color: white;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+
+}
+
+h1{
+    padding-left:  45px;
+}
+ul{
+    list-style: none;
+    color:var(--clr-neutral-stat);
+    font-family: var(--font-second);
+    line-height: 23px;
+}
+ol>li{
+    list-style: none;
+    text-transform: uppercase;
+    float: left;
+
+}
+.colour{
+    color:var(--clr-neutral-stat);
+
+}
+.ugi{
+    padding-left:  45px;
+    padding-right:  45px;
+}
+.up{
+    padding-top: 15px;
+}
+.clr{
+    color: var(--clr-primary-violet);
+}
+.two{
+    position: relative;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    background-image: url("./images/image-header-desktop.jpg");
+    background-size: cover;
+
+}
+.two:after {
+    position: absolute;
+    content: " ";
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    background-color: rgba(183, 0, 255, 0.493);
+  }
+.attribution { font-size: 11px; text-align: center; color: white; }
+.attribution a { color: hsl(263, 92%, 50%); }
+@media (max-width: 370px){
+    body{
+        margin:0 auto;
+        padding:10px;
+        text-align: center;
+        
+    }
+    .attribution{display: none;}
+    .attribution a{display: none;}
+    .header{
+        grid-column-start: 1;
+        grid-row-start: 2;
+    }
+    .container{
+        display: grid;
+        margin-top: 25px;
+        padding: 15px;
+        gap: 0px;
+        justify-content: center;
+        grid-template-columns: 300px;
+        grid-template-rows: 450px 300px;
+       
+        
+    }
+   
+    .uno{
+        background-color:var(--clr-primary-Blue);
+        padding: 10px;
+        margin-top: -78%;
+        color: white;
+        height: fit-content;
+        border-top-left-radius: 0px;
+        border-top-right-radius: 0px;
+        border-bottom-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+        margin-bottom: 30px;
+
+        
+
+    
+    }
+    .two{
+        position: relative;
+        height: 220px;
+        background-image: url("./images/image-header-mobile.jpg");
+        border-top-right-radius: 10px;
+        border-top-left-radius: 10px;
+    
+       
+    
+    }
+    .two:after {
+        border-top-right-radius: 10px;
+        border-top-left-radius: 10px;
+        border-bottom-right-radius: 0px;
+        
+    }  
+    ol>li{
+        float: none;
+    
+    }
+    
+}
+@media (max-width: 650px){
+    body{
+        margin:0 auto;
+        padding:10px;
+        text-align: center;
+        
+    }
+    ol>li{
+        float: none;
+    
+    }
+    
+    h1{
+        padding-right:  10%;
+    }
+    .attribution{display: none;}
+    .attribution a{display: none;}
+
+    .header{
+        grid-column-start: 1;
+        grid-row-start: 2;
+    }
+    .container{
+        display: grid;
+        margin-top: 25px;
+        padding: 15px;
+        gap: 0px;
+        justify-content: center;
+        grid-template-columns: 300px;
+        grid-template-rows: 450px 300px;
+       
+        
+    }
+    .uno{
+        background-color:var(--clr-primary-Blue);
+        padding: 10px;
+        margin-top: -78%;
+        color: white;
+        height: fit-content;
+        border-top-left-radius: 0px;
+        border-top-right-radius: 0px;
+        border-bottom-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+        margin-bottom: 30px;
+        
+
+    
+    }
+    .two{
+        position: relative;
+        border-top-right-radius: 0px;
+        border-bottom-right-radius: 0px;
+        height: 220px;
+        background-image: url("./images/image-header-mobile.jpg");
+        border-top-right-radius: 10px;
+        border-top-left-radius: 10px;
+    
+       
+    
+    }
+    .two:after {
+        border-top-right-radius: 10px;
+        border-top-left-radius: 10px;
+        border-bottom-right-radius: 0px;
+        
+    }  
+    
+}
