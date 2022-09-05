@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Checkout page</title>
+
+  <!--Material icons from google-->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <!--Material icons from google-->
+  <!--Icons from font awesome-->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/solid.css">
+  <script src="https://kit.fontawesome.com/32effa8ffd.js" crossorigin="anonymous"></script>
+  <!--Icons from font awesome-->
+
+  <link rel="shortcut icon" href="Img/devchallenges.png" type="image/x-icon">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <header>
+    <h1>Checkout</h1>
+
+  </header>
+  <main>
+    <div class="top">
+      <div class="flex">
+        <div class="flex__2">
+          <div>
+            <img src="./Img/photo1.png" alt="" srcset="" class="pic1">
+          </div>
+          <div class="left">
+            <h5>Vintage Backbag</h5>
+            <span style="color: #F2994A; font-weight: 600; font-size: 14px;">$54.99</span> <span
+              style="font-size: 14px;"><del>$94.99</del></span>
+
+            <div class="left_box">
+              <div class="grid">
+                <div>
+                  <i class="fas fa-minus-square" onclick="minus()"></i>
+                </div>
+                <div>
+                  <span>
+                    <p id="new1">0</p>
+                  </span>
+                </div>
+                <div>
+                  <i class="fas fa-plus-square" onclick="Add()"></i>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+
+        <div class="flex__2">
+          <div>
+            <img src="./Img/photo2.png" alt="" srcset="" class="pic1">
+          </div>
+          <div class="left">
+            <h5>Levi Shoes</h5>
+            <span style="color: #F2994A; font-weight: 600; font-size: 14px;">$74.99</span> <span
+              style="font-size: 14px;"><del>$124.99</del> </span>
+
+            <div class="left_box">
+              <div class="grid">
+                <div>
+                  <i class="fas fa-minus-square" onclick="mi()"></i>
+                </div>
+                <div>
+                  <span>
+                    <p id="new2">0</p>
+                  </span>
+                </div>
+                <div>
+                  <i class="fas fa-plus-square" onclick="Ad()"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+        <div>
+          <hr class="hr1">
+          <span class="hr_text1">Shipping</span> <span class="hr_text3" id="ship"> $148.98</span>
+
+        </div>
+        <div>
+          <hr class="hr2">
+          <span class="hr_text2">Total</span> <span class="hr_text4" id="total">$19</span>
+        </div>
+
+      </div>
+    </div>
+
+
+    <form id="form">
+      <div class="form__left" name="form">
+        <form class="form1">
+          <label>E-mail : </label><br>
+          <input type="text" id="email" placeholder="       Enter your email..." style=" font-size:18px; "
+            class="input">
+
+          <span class="material-icons icon" id="icon1">
+            mail
+          </span>
+
+          <br>
+          <label>Phone:</label><br>
+          <input type="tel" id="phone" placeholder="       Enter your phone..." style=" font-size:18px; "
+            class="input"><span class="material-icons icon" id="icon2">
+            call
+          </span>
+        </form>
+
+
+
+        <form>
+          <h5>Shipping address</h5>
+          <label>Full name :</label><br>
+          <input type="name" name="" id="username" placeholder="     Rodney Cotton" style=" font-size:18px;"
+            class="input">
+          <span class="material-icons icon" id="icon3">
+            account_circle
+          </span>
+          <br>
+
+
+          <label class="">Address </label><br>
+          <input type="address" name="" id="address" placeholder="      Enter your address" style=" font-size:18px;"
+            class="input">
+          <span class="material-icons icon" id="icon4">
+            home
+          </span>
+          <br>
+
+          <label>City</label><br>
+          <input type="phone" name="" id="city" placeholder="      Your city.." style="font-size: 18px;" class="input">
+          <span class="material-icons icon" id="icon5">
+            location_city
+          </span>
+
+        </form><br>
+
+
+        <div class="sucess" id="fresh">
+          <h1>Success Good</h1>
+        </div>
+        <form>
+          <div class="final">
+
+            <div class="Area">Country:</div>
+
+            <input type="phone" name="" id="country" placeholder="&#xe894;             &#xe5c5; "
+              class="input2 material-icons" style="font-size: 28px;">
+
+
+            <div class="Area">Postal code:</div>
+
+            <input type="phone" name="" id="postal" placeholder="&#xe89b;" class="input2 material-icons "
+              style="font-size: 25px;">
+
+
+
+          </div>
+          <input type="checkbox" id="" name="" class="size"><label>Save this information for next time</label>
+
+          <button class="myButton" type="submit" form="form" id="submit">Continue</button>
+
+        </form>
+      </div>
+
+    </form>
+  </main>
+  <script src="index.js"></script>
+</body>
+
+</html>

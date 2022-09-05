@@ -1,0 +1,442 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap");
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+body {
+  padding: 5%;
+  margin: 0 auto;
+  font-family: "Montserrat", sans-serif;
+}
+h1 {
+  position: relative;
+  left: 4%;
+}
+.your-class::-webkit-input-placeholder {
+  color: red;
+}
+
+.sucess {
+  position: absolute;
+  top: 80px;
+  left: 80%;
+  display: flex;
+  color: aqua;
+  align-content: center;
+  justify-content: center;
+  background-color: #f2994a;
+  text-align: center;
+  visibility: hidden;
+  padding: 100px;
+  border-radius: 20px;
+  font-size: 20px;
+
+  -webkit-animation: rotating 20s linear infinite;
+  -moz-animation: rotating 20s linear infinite;
+  -ms-animation: rotating 20s linear infinite;
+  -o-animation: rotating 20s linear infinite;
+  animation: rotating 20s linear infinite;
+}
+
+@-webkit-keyframes rotating {
+  from {
+    -webkit-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+@keyframes rotating {
+  from {
+    -ms-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -webkit-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  to {
+    -ms-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+.Area {
+  position: relative;
+  left: 15%;
+
+  top: -10px;
+}
+.hr_text1 {
+  position: absolute;
+
+  left: -45px;
+  top: 460px;
+}
+.hr_text2 {
+  position: absolute;
+
+  left: -45px;
+  top: 500px;
+}
+
+.hr_text3 {
+  position: absolute;
+
+  left: 145px;
+  top: 500px;
+}
+.hr_text4 {
+  position: absolute;
+
+  left: 145px;
+  top: 460px;
+}
+
+.input {
+  width: 350px;
+  padding: 10px;
+  margin-bottom: 15px;
+  border-radius: 12px;
+}
+.input2 {
+  width: 150px;
+  height: 50px;
+  border-radius: 12px;
+  font-size: 16px;
+  margin-bottom: 10px;
+  position: relative;
+  top: 10px;
+}
+
+.top {
+  width: 20%;
+  padding: 100px;
+  background-color: #f2f2f2;
+  border-radius: 12px;
+  margin-bottom: 30px;
+}
+.pic1 {
+  width: 160.71px;
+  height: 124.32px;
+  border-radius: 10px;
+}
+.flex {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  position: relative;
+  top: -123px;
+  left: -30px;
+}
+.flex__2 {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 15px;
+}
+.grid {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+}
+.input2 + .input2 {
+  margin-right: 20%;
+}
+.final {
+  display: flex;
+  justify-content: space-between;
+
+  position: relative;
+  right: 12%;
+}
+.fas {
+  position: relative;
+  left: 2px;
+  top: 8px;
+  color: #828282;
+  background-color: #e0e0e0;
+  cursor: pointer;
+}
+.fa-plus-square {
+  position: relative;
+  left: -8px;
+}
+
+.fa-minus-square {
+  position: relative;
+  left: 8px;
+}
+span {
+  position: relative;
+  top: -10px;
+  font-size: 16px;
+}
+.left {
+  position: relative;
+  top: -15px;
+}
+.left_box {
+  border: 1px solid #828282;
+  box-sizing: border-box;
+  border-radius: 12px;
+  width: 122.8px;
+  height: 49.86px;
+  position: relative;
+  top: 10px;
+
+  text-align: center;
+}
+
+.flex__2 div + div {
+  margin-left: 20px;
+}
+
+.form1 {
+  margin-bottom: 30px;
+}
+
+.size {
+  width: 21px;
+  height: 21px;
+  border: 1px solid #828282;
+  border-radius: 10px;
+  cursor: pointer;
+
+  position: relative;
+  top: 4px;
+}
+.myButton {
+  background-color: #f2994a;
+  border-radius: 28px;
+  border: 1px solid #f2994a;
+  display: inline-block;
+  cursor: pointer;
+  color: #ffffff;
+  font-family: Arial;
+  font-size: 17px;
+  padding: 10px 42px;
+  text-decoration: none;
+
+  position: relative;
+  top: 40px;
+  left: -10px;
+}
+
+@media screen and (max-width: 600px) {
+  body {
+    margin: 0 auto;
+  }
+  main {
+    margin: 0 auto;
+  }
+  .form__left {
+    position: relative;
+    top: 3px;
+  }
+  .flex__2 {
+    margin-bottom: 15px;
+    position: relative;
+    top: 60px;
+    left: 20px;
+  }
+  .left {
+    position: relative;
+    top: -26px;
+  }
+
+  .left_box {
+    border: 1px solid #828282;
+    box-sizing: border-box;
+    border-radius: 12px;
+    width: 100px;
+    height: 28px;
+    position: relative;
+    top: -5px;
+  }
+  .pic1 {
+    width: 70px;
+    height: 70px;
+    border-radius: 10px;
+  }
+  .hr1 {
+    position: relative;
+    width: 160px;
+    height: 0px;
+    left: -25px;
+    top: 160px;
+  }
+
+  .hr2 {
+    position: relative;
+    width: 160px;
+    height: 0px;
+    left: -25px;
+
+    top: 190px;
+  }
+
+  .hr_text1 {
+    position: absolute;
+
+    left: -25px;
+    top: 430px;
+  }
+  .hr_text2 {
+    position: absolute;
+
+    left: -25px;
+    top: 480px;
+  }
+
+  .hr_text3 {
+    position: absolute;
+    left: 95px;
+    top: 430px;
+  }
+  .hr_text4 {
+    position: absolute;
+    left: 90px;
+    top: 480px;
+  }
+
+  .icon {
+    position: relative;
+    left: -82%;
+    top: 5px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  body {
+    max-width: 1000px;
+    overflow: auto;
+    padding: 5%;
+  }
+  .top {
+    width: 10%;
+    padding: 100px;
+    background-color: #f2f2f2;
+    border-radius: 12px;
+    margin: 0 auto;
+
+    position: relative;
+    left: 4%;
+  }
+  .flex {
+    position: relative;
+    top: -69px;
+    left: -30px;
+  }
+
+  .flex__2 {
+    position: relative;
+    top: 8px;
+    left: 21px;
+  }
+  .flex__2 div + div {
+    margin-left: 30px;
+  }
+  .left_box {
+    border: 1px solid #828282;
+    box-sizing: border-box;
+    border-radius: 12px;
+    width: 100px;
+    height: 35px;
+    position: relative;
+    top: -5px;
+  }
+  .pic1 {
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+  }
+  main {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+
+    margin: 0 auto;
+  }
+
+  .form__left {
+    position: relative;
+    top: 3px;
+    left: 10%;
+  }
+  .hr1 {
+    position: absolute;
+    width: 248px;
+    height: 0px;
+    left: -45px;
+    top: 440px;
+  }
+
+  .hr2 {
+    position: absolute;
+    width: 248px;
+    height: 0px;
+    left: -45px;
+
+    top: 480px;
+  }
+
+  .hr_text1 {
+    position: absolute;
+
+    left: -45px;
+    top: 460px;
+  }
+  .hr_text2 {
+    position: absolute;
+    left: -45px;
+    top: 500px;
+  }
+
+  .hr_text3 {
+    position: absolute;
+    left: 145px;
+    top: 500px;
+  }
+  .hr_text4 {
+    position: absolute;
+
+    left: 145px;
+    top: 460px;
+  }
+
+  .icon {
+    position: relative;
+    left: -77.8%;
+    top: 5px;
+
+    color: #828282;
+
+    z-index: 0;
+  }
+  input {
+    z-index: 10;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .icon {
+    position: relative;
+    left: -87%;
+    top: 5px;
+    color: #828282;
+    z-index: 10;
+  }
+
+  input {
+    z-index: 10;
+  }
+}
+
+
+
+
