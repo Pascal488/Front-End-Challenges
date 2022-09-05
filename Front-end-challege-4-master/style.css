@@ -1,0 +1,240 @@
+body{
+    margin: 0 auto;
+    text-align: center;
+    font-family:  'Karla', sans-serif;
+    font-size: 15px;
+    background-color: var(  --clr-neutral-900);
+   
+}
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+:root{
+    --clr-primary-700:hsl(179, 62%, 43%);
+    --clr-primary-800:hsl(71, 73%, 54%);
+
+   
+    --clr-neutral-900:hsl(204, 43%, 93%);
+    --clr-neutral-500:hsl(218, 22%, 67%);
+    --clr-neutral-600:hsl(179, 60%, 40%);
+
+
+}
+
+.container{
+    display: grid;
+    margin-top: 10px;
+    padding: 10px;
+    justify-content: center;
+    grid-template-columns: 300px;
+    grid-template-rows: 250px 220px 220px;
+    
+}
+.text-floors{
+    padding-left: 15px;
+    padding-top: 30px;
+    float: left;
+    font-weight: 700;
+    color:var(--clr-primary-700);        
+}
+.text-1{
+    padding-left: 15px;
+    padding-top: 20px;
+    float: left;
+    color:var(--clr-primary-800);
+    font-weight: 900; 
+}
+.text-2{
+    padding-left: 15px;
+    float: left;
+    color:var(--clr-primary-800);
+    font-weight: 900;  
+}
+.text-3{
+    padding-left: 15px;
+    float: left;
+    color:var(--clr-neutral-500);
+    line-height: 150%;
+    
+}
+.text-4{
+    padding-left: 15px;
+    padding-top: 20px;
+    float: left;
+    color:var(--clr-neutral-500);
+
+}
+
+.text-floor2{
+    padding-left: 15px;
+    padding-top: 30px;
+    float: left;
+    font-weight: 700;
+    color: aliceblue;
+         
+}
+.text-6{
+   position: relative;
+   top: 60px;
+   right: 150px;
+   color: aliceblue;   
+}
+.text-5{
+    padding-left: 15px;
+    padding-top: 60px;
+    color: aliceblue;
+    float: left;
+    font-weight: 700;
+
+}
+.text-7{
+   position: relative;
+   top: 55px;
+   left: -75px;
+   font-weight: 400;
+   color: aliceblue;
+
+}
+.text-9{
+    position: relative;
+    top: 40px;
+    left: -20px;
+    font-weight: 500;
+    color: aliceblue;
+    line-height: 150%;
+    text-align: center;
+}
+.text-10{
+    position: relative;
+    left: -25px;
+    font-weight: 400;
+    color: aliceblue;
+    line-height: 150%;
+    text-align: center;
+}
+
+.lato{
+    font-size:35px;
+    color: aliceblue;
+    font-weight: 900;
+}
+
+.text-8{
+    position: relative;
+    top: 30px;
+    left: -5px;
+    font-weight: 900;
+    background-color: var( --clr-primary-800);
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border:none;
+    cursor: pointer;
+    width: 70%;
+    box-shadow: 0 8px 6px -6px rgb(29, 28, 28);
+}
+ li{
+    text-decoration: none;
+    float: left;
+    list-style-type: none;
+}
+.grid-1{
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    background-color: aliceblue;  
+  
+}
+
+.grid-2{
+    background-color:var(--clr-neutral-600);
+      
+}
+
+.grid-3{
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    background-color:var(--clr-primary-700);
+
+}
+
+
+@media (min-width:1000px){
+    .header{
+        grid-column-start: 1;
+        grid-column-end: 3;      
+    }
+    .text-floors{
+        position: relative;
+        left: 15px;
+        top: 30px;
+        color:var(--clr-primary-700);        
+    }
+    .text-1{
+        position: relative;
+        left: -135px;
+        top: 70px;
+        color:var(--clr-primary-800);
+    }
+    .text-2{
+        position: relative;
+        right: 145px;
+        top: 90px;
+        color:var(--clr-primary-800);
+        font-weight: 900;  
+    }
+    .text-4{
+        position: relative;
+        left: -135px;
+        top: 60px;
+        color:var(--clr-neutral-500);
+        font-weight: 900;  
+        
+    }
+    .forD-0::before{
+        content: "\a";
+        white-space: pre;
+    }
+   
+    .forD-0{
+        position: relative;
+        left: -331px;
+        top: -5px;
+        color:var(--clr-neutral-500);
+        font-weight: 900; 
+    }
+
+    .forD-1{
+        position: relative;
+        left: 275px;
+        top: 40px;
+        color:var(--clr-neutral-500);
+        font-weight: 900;    
+    }
+    .forD-2{
+        position: relative;
+        left: -135px;
+        top: 57.5px;
+        color:var(--clr-neutral-500);
+        font-weight: 900;    
+    }
+    .forD-3{
+        position: relative;
+        right: 145px;
+        top: 57.9px;
+        color:var(--clr-neutral-500);
+        font-weight: 900;    
+    }
+    .grid-1{ 
+       width: 600px;
+      
+    }
+    .grid-2{
+        border-bottom-left-radius: 10px;
+          
+    }
+
+    .grid-3{
+       border-bottom-left-radius: 0;
+       width: 300px;
+    }
+}
