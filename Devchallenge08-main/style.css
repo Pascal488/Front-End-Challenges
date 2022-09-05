@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:wght@400;700&family=Poppins:wght@200;300;400;500;600;700&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+p h1,h2,h3 ,h4,.header-col, .title-col, .para-col {
+  font-family: 'Poppins', sans-serif;
+
+}
+.img:nth-child(2),
+.img:nth-child(4),
+.img:nth-child(6) {
+    margin-top: 3.1rem;
+}
+.wrap  {
+    max-width: 900px;
+    margin: 4.4rem .75rem auto .75rem;
+}
+
+
+.header-col h1 {
+    font-family: 'PT Serif', serif;
+    font-weight: 700;
+    font-size: 2.25rem;
+    letter-spacing: -4.5%;
+    line-height: 47.7px;
+    margin-bottom: 2.3rem;
+}
+
+.title-col h2 {
+    font-size: 1.15rem;
+    font-weight: 600;
+    margin-bottom: .625rem;
+}
+
+.para-col p {
+    font-weight: 400;
+    font-size: .875rem;
+    line-height: 1.3rem;
+    max-width: 18.75rem;
+}
+
+.img-col {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(10rem, 1fr));
+    margin-top: 2rem;
+    gap: 1rem;
+}
+
+.img-col img {
+    width: 95%;
+
+}
+
+.img {
+    position: relative;
+}
+
+.img h3 {
+    font-weight: 600;
+    font-size: .875rem;
+}
+
+.img h4 {
+    position: absolute;
+    top: 0;
+    left: 95%;
+    font-weight: 400;
+    font-size: .625rem;
+    text-transform: uppercase;
+    writing-mode: vertical-rl;
+   
+    
+}
+footer{
+  text-align: center;
+  color: rgb(0, 255, 128);
+}
+
+
+@media screen and (min-width: 30rem) {
+    .img-col {
+        gap: 2rem;
+    }
+}
+
+@media screen and (min-width: 45rem) {
+    .wrap {
+        max-width: 55rem;
+        margin: 6.8rem auto;
+    }
+
+    .text-col {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        padding: 1rem;
+        margin-bottom: 6rem;
+    }
+
+    
+    .img:nth-child(4),
+    .img:nth-child(6) {
+        margin-top: 0;
+    }
+    .img:nth-child(2),
+    .img:nth-child(5) {
+        margin-top: 5rem;
+    }
+
+    .img-col {
+        grid-template-columns: repeat(3, minmax(10rem, 1fr));
+        gap: 4rem;
+        padding: 1rem;
+        overflow: hidden;
+    }
+
+
+}
