@@ -1,0 +1,132 @@
+:root{
+--Pale-blue: hsl(225, 100%, 94%);
+--Bright-blue: hsl(245, 75%, 52%);
+
+
+
+
+--Very-pale-blue: hsl(225, 100%, 98%);
+--Desaturated-blue: hsl(224, 23%, 55%);
+--Dark-blue: hsl(223, 47%, 23%);
+
+
+
+
+--Font-size-paragraph: 16px;
+--font-red-hat: 'Red Hat Display', sans-serif;
+
+}
+*::after,*::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body{
+    margin: 0 auto;
+    max-width: 250px;
+    font-family:var(--font-red-hat);
+    background-color: var(--Pale-blue);
+    background-image: url(./images/pattern-background-desktop.svg);
+    background-repeat:no-repeat;
+    background-position:center bottom;
+    background-size: cover;
+
+
+
+    
+   
+}
+
+.container{
+    width: 100%;
+    border-radius: 10px;
+    text-align: center;
+    transform: translate(0%,30%);
+    background-color:var(--Very-pale-blue);
+
+
+
+    box-shadow: 2px 48px 48px -12px var(--Pale-blue);
+    -webkit-box-shadow: 2px 48px 48px -12px var(--Pale-blue);
+    -moz-box-shadow: 2px 48px 48px -12px var(--Pale-blue);
+
+}
+.padding{
+    padding: 20px;
+}
+.flex{
+    display: flex;
+    margin-left: -5px;
+
+
+}
+p{
+    font-weight: 100;
+    font-size:var(--Font-size-paragraph) ;
+
+}
+h2,
+p{
+    color: var(--Dark-blue);
+}
+.last{
+    position: relative;
+    top: 10px;
+}
+.positioning{
+    position: relative;
+    top: 23px;
+    left: 15px;
+}
+.img__header{
+    max-width: 100%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    position: relative;
+    top: -10px;
+
+}
+.music__svg{
+    max-width: 100%;
+    padding: 9px;
+
+}
+ul{
+    list-style: none;
+    margin-left: -35px;
+
+}
+
+.myButton {
+	background-color:var(--Bright-blue);
+	border-radius:8px;
+	display:inline-block;
+	cursor:pointer;
+	color:var(--Pale-blue);
+	font-family:Arial;
+    font-size: .6em;
+	padding:12px 60px;
+	text-decoration:none;
+    position: relative;
+    top: 5px;
+    box-shadow: 2px 48px 48px -12px var(--Pale-blue);
+    -webkit-box-shadow: 2px 48px 48px -12px var(--Pale-blue);
+    -moz-box-shadow: 2px 48px 48px -12px var(--Pale-blue);
+}
+
+
+
+@media screen and (max-width:600px){
+
+
+    body{
+        background-color: var(--Pale-blue);
+        background-image: url(./images/pattern-background-mobile.svg);
+        background-repeat:no-repeat;
+        background-position:center bottom;
+        background-size: cover;
+    }
+
+    
+}
