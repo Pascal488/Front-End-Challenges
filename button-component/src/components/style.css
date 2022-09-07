@@ -1,0 +1,24 @@
+h3{
+    margin-bottom: 35%;
+}
+
+.Nav{
+    margin: 0;
+    padding: 20px;
+    width: 200px;
+    background-color: red;
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+}
+
+li{
+        list-style: none;
+        color: black;
+        padding: 16px;
+        text-decoration: none;
+}
+
+.btn{
+    background-color: aqua;
+}
