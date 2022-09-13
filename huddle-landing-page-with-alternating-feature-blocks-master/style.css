@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --pink:hsl(322, 100%, 66%);
+    --Very-Pale-Cyan:hsl(193, 100%, 96%);
+    --Very-Dark-Cyan: hsl(192, 100%, 9%);
+    --Grayish-Blue: hsl(208, 11%, 55%);
+}
+body{
+    width: 100vw;
+    height: 100vh;
+
+}
+ul > li {
+        list-style: none;
+        padding: 20px;
+        float: left;
+    
+}
+header{
+    background-color: var(--Very-Pale-Cyan);
+    background-image: url(./images/bg-hero-mobile.svg);
+    background-repeat: no-repeat;
+    text-align: center;
+    margin-bottom:25px;
+
+}
+img{
+    max-width: 100%;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+}
+p{
+     padding: 5%;
+    
+}
+.try_forfreebtn{
+    padding:5px 10px 5px 10px;
+    background-color: aliceblue;
+    border-radius: 10px;
+}
+
+.get_startedbtn{
+        padding:5px 25px 5px 25px;
+        border-radius: 10px;
+        margin: 20px;
+
+}
+
+.below__header{
+    padding: 7%;
+}
+
+main{
+    text-align: center;
+}
+.container{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 15px;
+    justify-content: center;
+}
+.card__one{
+    max-width: 320px;
+    height: auto;
+    background-color:red;
+    border-radius: 10px;
+    padding: 20px;
+
+}
+
+
+.card__forfooter{
+    position: relative;
+    left: 35px;
+    bottom: 70px;
+    text-align: center;
+    max-width: 320px;
+    height: auto;
+    background-color:red;
+    border-radius: 10px;
+}  
+
+
+footer{
+    margin-top: 20%;
+    background-color: var(--Very-Dark-Cyan);
+    color: white;
+}
+
+ol > li{
+    list-style: none;
+    padding: 10px;
+}
+.for__footer{
+    color: white;
+}
+.icon__forimg{
+    padding-right: 10px;
+}
+
+
+
+
+
+
+@media  (min-width:1024px) {
+        header{
+            display: flex;
+        }
+}
