@@ -36,10 +36,7 @@ img{
     display: flex;
     justify-content: space-between;
 }
-p{
-     padding: 5%;
-    
-}
+p{padding: 5%;}
 .try_forfreebtn{
     padding:5px 10px 5px 10px;
     background-color: aliceblue;
@@ -52,14 +49,9 @@ p{
         margin: 20px;
 
 }
+.below__header{padding: 7%;}
 
-.below__header{
-    padding: 7%;
-}
 
-main{
-    text-align: center;
-}
 .container{
     display: flex;
     align-items: center;
@@ -67,7 +59,10 @@ main{
     gap: 15px;
     justify-content: center;
 }
-.card__one{
+.card__one,
+    .card__two,
+        .card__three
+{
     max-width: 320px;
     height: auto;
     background-color:red;
@@ -78,41 +73,58 @@ main{
 
 
 .card__forfooter{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+
     position: relative;
-    left: 35px;
-    bottom: 70px;
-    text-align: center;
-    max-width: 320px;
+    top: -45px;
+    margin: 0 auto;
+    max-width: 310px;
+    padding: 10px;
     height: auto;
     background-color:red;
     border-radius: 10px;
 }  
 
+ol > li{list-style: none;padding: 10px;}
+.for__footer{color: white;}
+.icon__forimg{ padding-right: 10px;}
 
 footer{
     margin-top: 20%;
     background-color: var(--Very-Dark-Cyan);
-    color: white;
-}
-
-ol > li{
-    list-style: none;
-    padding: 10px;
-}
-.for__footer{
-    color: white;
-}
-.icon__forimg{
-    padding-right: 10px;
+    color: var(--Very-Pale-Cyan);
 }
 
 
 
 
-
-
-@media  (min-width:1024px) {
-        header{
-            display: flex;
-        }
+@media  (min-width:724px) {
+header{background-image: url(./images/bg-hero-desktop.svg);background-repeat: no-repeat;}
+.header{display: flex;}
+.for_hd{margin:0px 5px 35px 25px;}
+.below__header{display: flex;text-align: left;}
+.parag h1{font-size: 30px;padding: 30px;}
+.card__one,
+    .card__two,
+        .card__three{
+        display: flex;
+        flex-direction: row-reverse;
+        align-items: center;
+        max-width: 65%;
+        max-height: 325px;
+        background-color:red;
+        border-radius: 10px;
+        padding: 2%;
+        text-align: left;
+    }
+    .card__two{flex-direction: row;}
+        .card__three{flex-direction: row-reverse;}
+h2{position: relative;left: 15px;}
+.padding{padding: 9%;}
+.card__forfooter{max-width: 35%;}
+.card__forfooter > p{font-size: 20px;font-weight: bold;}
+.flex_footer{display: flex;justify-content: space-around;align-items: center;}
 }

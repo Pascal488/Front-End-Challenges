@@ -3,9 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
-
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
   <title>Frontend Mentor | Huddle landing page with alternating feature blocks</title>
   <link rel="stylesheet" href="style.css">
   <style>
@@ -26,59 +24,78 @@
         </button>
       </li>
     </ul>
-  </div>
+    
    <div class="below__header">
-    <h1>
-      Build The Community Your Fans Will Love
-      </h1>
-      <p>
-        Huddle re-imagines the way we build <br> You have a voice, but so does your audience. 
-        Create connections with your users as you engage in genuine discussion.     
-      </p>
-      <button class="get_startedbtn">
-      Get Started For Free
-      </button>
-      <img src="./images/illustration-mockups.svg" alt="">
+    <div class="parag">
+      <h1>
+        Build The Community Your Fans Will Love
+        </h1>
+        <p>
+          Huddle re-imagines the way we build <br> You have a voice, but so does your audience. 
+          Create connections with your users as you engage in genuine discussion.     
+        </p>
+        <button class="get_startedbtn">
+        Get Started For Free
+        </button>
+    </div>
+    <div>
+      <img src="./images/illustration-mockups.svg" alt="" class="for_hd">
+    </div>
    </div>
   
 </header>
 <main>
   <div class="container">
+
     <div class="card__one">
+      <div class="padding">
       <img src="./images/illustration-grow-together.svg" alt="" srcset="">
-      <h1>
-        Grow Together
-      </h1>
-      <p>
-        Generate meaningful discussions with your audience and build a strong, loyal community. 
-        Think of the insightful conversations you miss out on with a feedback form. 
-      </p>
+      </div>
+      <div class="padding">
+        <h2>
+          Grow Together
+        </h2>
+        <p>
+          Generate meaningful discussions with your audience and build a strong, loyal community. 
+          Think of the insightful conversations you miss out on with a feedback form. 
+        </p>
+      </div>
     </div>
-    <div class="card__one">
+
+    <div class="card__two">
+      <div class="padding">
       <img src="./images/illustration-flowing-conversation.svg" alt="" srcset="">
-      <h1>
-      Flowing Conversations
-      </h1>
-      <p>
-        You wouldn't paginate a conversation in real life, so why do it online? Our threads 
-        have just-in-time loading for a more natural flow.
-      </p>
+      </div>
+      <div class="padding">
+        <h2>
+          Flowing Conversations
+          </h2>
+          <p>
+            You wouldn't paginate a conversation in real life, so why do it online? Our threads 
+            have just-in-time loading for a more natural flow.
+          </p>
+      </div>
     </div>
-    <div class="card__one">
-      <img src="./images/illustration-flowing-conversation.svg" alt="" srcset="">
-      <h1>
-        Your Users
-      </h1>
-      <p>
-        It takes no time at all to integrate Huddle with your app's authentication solution. 
-        This means, once signed in to your app, your users can start chatting immediately.
-      </p>
+
+    <div class="card__three">
+      <div class="padding"> 
+      <img src="./images/illustration-your-users.svg" alt="" srcset="">
+      </div>
+      <div class="padding">
+        <h2>
+          Your Users
+        </h2>
+        <p>
+          It takes no time at all to integrate Huddle with your app's authentication solution. 
+          This means, once signed in to your app, your users can start chatting immediately.
+        </p>
+      </div>
     </div>
 
   </div>
 </main>
 
-   <footer>
+<footer>
 
     <div class="card__forfooter">
       <p>
@@ -89,6 +106,7 @@
         </button>
     </div>
 
+<div class="flex_footer">
     <div>
       <ol>
         <li>
@@ -98,7 +116,8 @@
           <span>
             <img src="./images/icon-location.svg" alt="" srcset=""  class="icon__forimg">
           </span>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
+          Lorem ipsum dolor sit amet, consectetur <br> elit, 
+          sed do eiusmod tempor <br>
           incididunt ut labore et dolore magna aliqua
         </li>
         <li>
@@ -121,21 +140,26 @@
         <li>About Us</li>
         <li> What We Do</li>
         <li> FAQ</li>
+      </ol>
+    </div>
+
+    <div>
+      <ol>
         <li>Career</li>
         <li>Blog</li>
         <li> Contact Us</li>
       </ol>
     </div>
-
-
-
-
-
-    
-
-
-
-
+    <!-- To be removed  -->
+    <div>
+      <ol>
+        <li>Career</li>
+        <li>Blog</li>
+        <li> Contact Us</li>
+      </ol>
+    </div>
+    <!-- To be removed  -->
+  </div>
     <p class="attribution">
       Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
       Coded by <a href="https://github.com/Pascal488">PASCHAL MAXIMILLIAN</a>.
