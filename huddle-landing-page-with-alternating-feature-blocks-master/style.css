@@ -14,6 +14,7 @@
 body{
     width: 100vw;
     height: 100vh;
+    background-color: white;
 
 }
 ul > li {
@@ -39,16 +40,15 @@ img{
 }
 p{padding: 5%;}
 .try_forfreebtn{
-    padding:5px 10px 5px 10px;
+    width: 200px;
+    height: auto;
     background-color: white;
-    border-radius: 10px;
 	border-radius:28px;
 	border:1px solid var(--Very-Pale-Cyan);
 	display:inline-block;
 	cursor:pointer;
 	color:var(--Very-Dark-Cyan);
 	font-size:17px;
-	padding:15px 61px;
 	text-decoration:none;
 
     font-weight: 700;
@@ -67,10 +67,8 @@ p{padding: 5%;}
         color:var(--Very-Pale-Cyan);
         font-size:20px;
         font-weight: 700;
-        padding:16px 70px;
-    box-shadow: -9px 0px 33px -17px var(--Very-Dark-Cyan);
-
-
+        padding:20px ;
+        box-shadow: -9px 0px 33px -17px var(--Very-Dark-Cyan);
 }
 .get_startedbtn:hover{
     box-shadow: -9px 0px 33px -17px var(--Very-Pale-Cyan);
@@ -92,9 +90,12 @@ p{padding: 5%;}
 {
     max-width: 320px;
     height: auto;
-    background-color:red;
+    background-color:white;
     border-radius: 10px;
     padding: 20px;
+box-shadow: 10px 10px 355px 40px var(--Very-Pale-Cyan);
+-webkit-box-shadow: 10px 10px 355px 40px var(--Very-Pale-Cyan);
+-moz-box-shadow: 10px 10px 355px 40px var(--Very-Pale-Cyan);
 
 }
 
@@ -142,7 +143,7 @@ header{background-image: url(./images/bg-hero-desktop.svg);background-repeat: no
         align-items: center;
         max-width: 65%;
         max-height: 325px;
-        background-color:red;
+        background-color:white;
         border-radius: 10px;
         padding: 2%;
         text-align: left;
@@ -151,7 +152,38 @@ header{background-image: url(./images/bg-hero-desktop.svg);background-repeat: no
         .card__three{flex-direction: row-reverse;}
 h2{position: relative;left: 15px;}
 .padding{padding: 9%;}
-.card__forfooter{max-width: 35%;}
+.card__forfooter{max-width: 35%; background-color: white; color: var(--Very-Dark-Cyan);
+
+    
+
+ 
+}
 .card__forfooter > p{font-size: 20px;font-weight: bold;}
 .flex_footer{display: flex;justify-content: space-around;align-items: center;}
+.try_forfreebtn{
+    background-color: white;
+	border-radius:28px;
+	border:1px solid var(--Very-Pale-Cyan);
+	display:inline-block;
+	cursor:pointer;
+	color:var(--Very-Dark-Cyan);
+	font-size:17px;
+	padding:15px;
+    font-weight: 700;
+}
+
+
+.get_startedbtn{
+    margin: 20px;
+    background-color: var(--pink);
+    border-radius:28px;
+    border: none;
+    display:inline-block;
+    cursor:pointer;
+    color:var(--Very-Pale-Cyan);
+    font-size:20px;
+    font-weight: 700;
+    padding:16px 70px;
+    box-shadow: -9px 0px 33px -17px var(--Very-Dark-Cyan);
+}
 }
