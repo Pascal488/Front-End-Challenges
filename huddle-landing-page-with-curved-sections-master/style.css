@@ -1,52 +1,110 @@
-*{
+* {
     margin: 0;
     box-sizing: border-box;
     padding: 0;
 }
 
 
-header{
+header {
     display: flex;
     justify-content: space-between;
     padding: 15px;
 }
-.img_for_header{
-        max-width: 28%;
 
-            
-        }
-.tryit_for_free{
-        padding: 5px 20px 5px 20px;
-        border: 1px solid red;
-        border-radius: 10px;
-}
+.img_for_header {
+    max-width: 28%;
 
-
-.after_header{
-            margin: 0 auto;
-            text-align: center;
-            max-width: 300px;
-}
-
-.get_started{
-        padding:5px 20px 5px 20px;
-        border: none;
-        border-radius: 10px;
-        font-size: 19px;
-}
-.ImgForMockup{
-        max-width: 100%;
-}
-
-.main_section{
-        display: flex;
-        flex-direction: column;
-        justify-content: space-around;
-        align-items: center;
-        margin: 0 auto;
 
 }
 
-.huge_font{
-    font-size: 40px;
+.tryit_for_free {
+    padding: 5px 20px 5px 20px;
+    border: 1px solid red;
+    border-radius: 10px;
+}
+
+
+.after_header {
+    margin: 0 auto;
+    text-align: center;
+    max-width: 300px;
+}
+
+.get_started {
+    padding: 5px 20px 5px 20px;
+    border: none;
+    border-radius: 10px;
+    font-size: 19px;
+}
+
+.ImgForMockup {
+    max-width: 100%;
+}
+
+.main_section {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10%;
+
+}
+
+.huge_font {
+    font-size: 60px;
+    text-align: center;
+}
+
+.width {
+    width: 30px;
+
+}
+
+.icons {
+    margin-right: 85px;
+}
+
+.grow_together img {
+    max-width: 100%;
+}
+
+.grow_together {
+    padding: 10px;
+    text-align: center;
+}
+
+.ready_community h1 {
+    margin-bottom: 15px;
+}
+
+.ready_community {
+    padding: 10%;
+    text-align: center;
+}
+
+
+input{
+        outline: none;
+        width: 75%;
+        padding: 15px;
+}
+
+.btn_subs{
+    padding: 10px 20px 10px 25px;
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+    background-color: aqua;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left:37.5%;
+}
+
+.footer li{
+        list-style: none;
+}
+.footer{
+    background-color: black;
+    color: aliceblue;
+    padding: 10px;
 }
