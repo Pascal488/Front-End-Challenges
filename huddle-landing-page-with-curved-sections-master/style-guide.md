@@ -39,36 +39,6 @@ For the social icons, you can use a font icon library. Some suggestions can be f
 - [Font Awesome](https://fontawesome.com/)
 - [IcoMoon](https://icomoon.io/)
 - [Ionicons](https://ionicons.com/)
-
-
-
-
-
-
-
-
-
-
-  
-
-  
-
-
- 
-
-
-   
-
-
- 
-  
-
-
-  
-  Phone: +1-543-123-4567
-  example@huddle.com
-
-  Newsletter
   
 
  
