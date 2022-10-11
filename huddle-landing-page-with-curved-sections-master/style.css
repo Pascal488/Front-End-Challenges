@@ -1,10 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap');
 * {
     margin: 0;
     box-sizing: border-box;
     padding: 0;
 }
+:root{
+  
+
+--Pink: hsl(322, 100%, 66%);
+--Light-Pink: hsl(321, 100%, 78%);
+--Light-Red: hsl(0, 100%, 63%);
 
 
+
+--Very-Dark-Cyan: hsl(192, 100%, 9%);
+--Very-Pale-Blue: hsl(207, 100%, 98%);
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+}
 header {
     display: flex;
     justify-content: space-between;
@@ -16,11 +30,14 @@ header {
 
 
 }
+h1{
+    font-family: 'Poppins', sans-serif;
+}
 
 .tryit_for_free {
-    padding: 5px 20px 5px 20px;
-    border: 1px solid red;
-    border-radius: 10px;
+    padding:2px 31px;
+    border:  solid var(--Pink);
+    border-radius: 28px;
 }
 
 
@@ -31,10 +48,13 @@ header {
 }
 
 .get_started {
-    padding: 5px 20px 5px 20px;
+    background-color: var(--Pink);
+    color: var(--Very-Pale-Blue);
+    border-radius: 28px;
+    padding:16px 76px;
+    font-size: 17px;
+    cursor: pointer;
     border: none;
-    border-radius: 10px;
-    font-size: 19px;
 }
 
 .ImgForMockup {
@@ -104,10 +124,11 @@ input{
         list-style: none;
 }
 .footer{
-    background-color: black;
+   
     color: aliceblue;
     padding: 10px;
 }
+
 
 @media  (min-width:724px) {
     header {
@@ -115,19 +136,13 @@ input{
         justify-content: space-between;
         padding: 3%;
     }
-    header h1{
-        font-size:xx-large;
+    .header__one{
+        font-size: 31px;
     }
-    .tryit_for_free {
-        border-radius:28px;
-        border:1px solid #18ab29;
-        display:inline-block;
-        cursor:pointer;
-        color:#18ab29;
-        font-size:17px;
-        padding:2px 27px;
-       
+    .get_started{
+        margin: 30px;
     }
+   
     .after_header {
         padding: 5%;
         max-width: 800px;
@@ -158,12 +173,21 @@ input{
         padding: 2%;
         text-align: left;
         margin: 0 auto;
+
+    
+        
+
     }
     .grow_together img{
             max-width: 100%;
             padding: 10px;
     }
+   
+   
+    
     .footer{
+        background-color:var(--Very-Dark-Cyan);
+        color: aliceblue;
         padding: 10%;
 
     }
@@ -171,6 +195,7 @@ input{
         display: flex;
         flex-direction: row-reverse;
         justify-content: space-around;
+        
     }
     .newsletter{
         max-width: 300px;
