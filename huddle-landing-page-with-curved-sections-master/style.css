@@ -51,10 +51,11 @@ h1{
     background-color: var(--Pink);
     color: var(--Very-Pale-Blue);
     border-radius: 28px;
-    padding:16px 76px;
+    padding:10px 20px;
     font-size: 17px;
     cursor: pointer;
     border: none;
+    margin: 10px;
 }
 
 .ImgForMockup {
@@ -140,6 +141,13 @@ input{
         font-size: 31px;
     }
     .get_started{
+        background-color: var(--Pink);
+        color: var(--Very-Pale-Blue);
+        border-radius: 28px;
+        padding:16px 76px;
+        font-size: 17px;
+        cursor: pointer;
+        border: none;
         margin: 30px;
     }
    
