@@ -30,6 +30,7 @@ header {
 
 
 }
+
 h1{
     font-family: 'Poppins', sans-serif;
 }
@@ -58,9 +59,7 @@ h1{
     margin: 10px;
 }
 
-.ImgForMockup {
-    max-width: 100%;
-}
+
 
 .main_section {
     display: flex;
@@ -130,6 +129,26 @@ input{
     padding: 10px;
 }
 
+@media (max-width:624px) {
+    .ImgForMockup {
+       max-width: 100%;
+
+    }
+    
+}
+@media (max-width:724px) {
+    .ImgForMockup {
+       max-width: 100%;
+
+    }
+    .footer{
+       
+        padding: 1%;
+        gap:10px;
+
+    }
+    
+}
 
 @media  (min-width:724px) {
     header {
@@ -150,7 +169,12 @@ input{
         border: none;
         margin: 30px;
     }
-   
+    .ImgForMockup {
+        width: 1000px;
+        position: relative;
+        left: -20%;
+
+    }
     .after_header {
         padding: 5%;
         max-width: 800px;
