@@ -215,22 +215,33 @@ input{
             padding: 10px;
     }
    
-   
+    .footer:before {
+        content: "";
+        background-image: url(./images/bg-footer-top-desktop.svg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        
+    }
     
     .footer{
-        background-color:var(--Very-Dark-Cyan);
+        width: auto;
         color: aliceblue;
+        position: relative;
+        overflow-x: hidden;
         padding: 10%;
-
+        background-color: var(--Very-Dark-Cyan);
     }
-    footer{
+
+    .footer-content {
         display: flex;
         flex-direction: row-reverse;
         justify-content: space-around;
-        
     }
+    
     .newsletter{
         max-width: 300px;
+        background-color: var(--Very-Dark-Cyan);
+        border-top-right-radius:100px;
     }
     .newsletter p,h2{
         margin-bottom: 10px;
@@ -242,6 +253,8 @@ input{
     }
     .huddle{
         max-width: 300px;
+        background-color: var(--Very-Dark-Cyan);
+
 
     }
     .huddle p,img{

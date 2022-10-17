@@ -13,14 +13,32 @@ body{
 .App{
     display: flex;
 }
+.flex-content{
+    display: flex;
+}
 
 
 .button-content{
   display: flex;
   flex-direction: column;
   justify-content: space-around;
-  background-color: aqua;
-  margin-left: 250px;
-  margin-bottom: 10px;
-  padding: 16px;
+  margin-left: 200px;
+  padding: 16px 86px;
+  height: 1000px;
+}
+.button-content-center{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin-left: 0;
+  padding: 16px 86px;
+  height: 1000px;
+}
+
+.button-content-end{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  margin-bottom: 33px;
+
 }

@@ -20,5 +20,47 @@ li{
 }
 
 .btn{
-    background-color: aqua;
+    cursor: pointer;
+    color: #3F3F3F;
+    width: 81px;    
+    height: 36px;
+    background: #E0E0E0;
+    box-shadow: 0px 2px 3px rgba(51, 51, 51, 0.2);
+    border-radius: 6px;
 }
+
+
+.margin{
+    margin-top: 10px;
+  }
+  
+  .another{
+  margin: 3px;
+  margin-top: 5px;
+  padding: 10px;
+  
+   
+  }
+.capitalize{
+    text-transform: capitalize;
+}
+  .hello{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    position: fixed;
+    background-color: aliceblue;
+    margin-top: 10px;
+
+
+
+
+
+
+    margin: 0;
+    padding: 20px;
+    width: 200px;
+    position: fixed;
+    overflow: auto;
+    
+  }
