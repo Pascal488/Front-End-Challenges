@@ -5,7 +5,7 @@ const Footer = () => {
     <div>
         <div className='bg-gray-100 p-24 flex justify-around text-gray-900 text-sm'>
             <div>
-                <ul className='list-none '>
+                <ul className='list-none'>
                     <li className=' mb-3 text-xl'>ASM</li>
                     <li className='max-w-[230px]'>
                     The advantage of hiring a 
@@ -16,8 +16,8 @@ const Footer = () => {
                 </ul>
             </div>
             <div>
-                <ul className='list-none '>
-                <li className=' mb-3 text-xl'>Services</li>
+                <ul className='list-none gap-5'>
+                <li className=' mb-3 text-xl text-orange-400'>Services</li>
                 <li>Email Marketing</li>
                 <li>Campaigns</li>
                 <li>Branding</li>
@@ -25,7 +25,7 @@ const Footer = () => {
             </div>
             <div>
                 <ul className='list-none  '>
-                    <li className=' text-xl mb-3'>Furniture</li>
+                    <li className=' text-xl mb-3 text-orange-400'>Furniture</li>
                     <li>Beds</li>
                     <li>Chair</li>
                     <li>All</li>
@@ -34,7 +34,7 @@ const Footer = () => {
             </div>
             <div>
                 <ul className='list-none '>
-                    <li className='text-xl mb-3' >Follow Us</li>
+                    <li className='text-xl mb-3 text-orange-400' >Follow Us</li>
                     <li>Facebook</li>
                     <li>Twitter</li>
                     <li>Instagram</li>
