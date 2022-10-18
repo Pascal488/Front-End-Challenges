@@ -1,7 +1,7 @@
 import { url } from 'inspector'
 import React from 'react'
 
-import {HiSearchCircle} from 'react-icons/hi'
+import { HiSearchCircle } from 'react-icons/hi'
 import BackgroundImage from '../assets/images/image.jpg'
 
 const Navbar = () => {
@@ -56,7 +56,7 @@ const Navbar = () => {
                     </div>
                     <div className='p-10'>
                         <span>
-                            <input type="text" placeholder='Search furniture'  className='outline-none text-black w-56 p-1 rounded-2xl placeholder-shown:text-sm'/>
+                            <input type="text" placeholder='Search furniture' className='outline-none text-black w-56 p-1 rounded-2xl placeholder-shown:text-sm' />
                         </span>
                     </div>
 

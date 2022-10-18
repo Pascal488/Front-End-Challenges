@@ -1,9 +1,9 @@
 import React from 'react'
 
-const Aboutus = () => {
+const Whyus = () => {
   return (
     <div>
-        <div className='flex p-8   gap-5 mb-5 text-left  font-normal justify-center'>
+        <div className='flex p-8  bg-white gap-5 mb-5 text-left  font-normal justify-center '>
             <div className='px-7'>
                 <h1 className='lg:text-3xl'>
                 Why <br/>Choosing Us
@@ -38,4 +38,4 @@ const Aboutus = () => {
   )
 }
 
-export default Aboutus
+export default Whyus 
