@@ -3,7 +3,7 @@ import React from 'react'
 const Aboutus = () => {
   return (
     <div>
-        <div    className='flex justify-around p-8 gap-5 md:flex md:flex-col'>
+        <div    className='flex justify-around p-8 gap-5 md:flex md:flex-col' id='aboutus'>
 
             <div className='md:hidden'> 
             <div className='relative -left-20 z-40 '>

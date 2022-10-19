@@ -7,17 +7,26 @@ import Materials  from './components/Materials';
 import Footer from './components/Footer';
 import Testmonio from './components/Testmonio';
 
+import {BrowserRouter} from 'react-router-dom';
+
+import {HashLink as Link} from 'react-router-hash-link'
+
+
 
 function App() {
   return (
     <div className=''>
+      
         <Navbar/>
-        <Whyus />
-         <Furnitures/>
-        <Aboutus/> 
+        <Whyus/>
+        <Furnitures /> 
+        <Aboutus/>
         <Materials/>
         <Testmonio/>
-        <Footer/>      
+        <Footer/>
+   
+       
+       
     </div>
   );
 }

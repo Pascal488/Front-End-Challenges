@@ -25,8 +25,8 @@ export const Materials = () => {
                     https://images.pexels.com/photos/3757055/pexels-photo-3757055.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2
                     " alt="" className='w-36 h-52 rounded-xl' />
                 </div>
-                
-                    <img src="
+
+                <img src="
                     https://images.pexels.com/photos/7598126/pexels-photo-7598126.jpeg?auto=compress&cs=tinysrgb&w=800
                     " alt="" className='relative top-10  max-w-[60%] rounded-l-2xl' />
             </div>

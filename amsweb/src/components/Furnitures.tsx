@@ -26,8 +26,8 @@ const Dummy: any = [
 
 const Furnitures = (props: any) => {
     return (
-        <div className='bg-slate-50 h-auto mb-5 '>
-            <div className='mb-5'>
+        <div className='bg-slate-50 h-auto mb-5 ' id='furniture'>
+            <div className='mb-5' >
                 <h1 className='text-center text-3xl font-semibold pt-3'>
                     Best Selling Product
                 </h1>
