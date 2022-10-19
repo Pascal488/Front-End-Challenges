@@ -4,7 +4,7 @@ const Aboutus = () => {
   return (
     <div>
         <div    className='flex justify-around p-8 gap-5'>
-            <div>
+            <div className=''>
            
             <div className='relative -left-20 z-40'>
                 <img src="
@@ -12,7 +12,7 @@ const Aboutus = () => {
                 " alt=""  className='max-w-[70%] p-0 rounded-2xl   '/>
             
             </div>
-            <div className='relative -top-72 left-[390px] bg-gray-100 w-32 h-64 z-0 rounded-2xl'>
+            <div className='relative -top-72 left-[390px] bg-gray-100 w-32 h-64 z-0 rounded-2xl '>
 
             </div>
             </div>
@@ -22,7 +22,7 @@ const Aboutus = () => {
                 Experiences
 
                 </span>
-                <h1 className='lg:text-3xl capitalize p-0 mb-5 mt-3 font-semibold'>
+                <h1 className='text-3xl capitalize p-0 mb-5 mt-3 font-semibold'>
                 we provide you the <br/>
                 best experience
                 </h1>

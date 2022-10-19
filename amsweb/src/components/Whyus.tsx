@@ -3,10 +3,10 @@ import React from 'react'
 const Whyus = () => {
   return (
     <div>
-        <div className='flex p-8  bg-white gap-5 mb-5 text-left  font-normal justify-center '>
+        <div className='flex p-8  bg-white gap-5 mb-5 text-left  font-normal justify-center md:flex-col'>
             <div className='px-7'>
                 <h1 className='lg:text-3xl'>
-                Why <br/>Choosing Us
+                Why Choosing Us
             </h1>
             </div>
 

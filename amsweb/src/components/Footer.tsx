@@ -41,13 +41,13 @@ const Footer = () => {
                 </ul>
             </div>
         </div>
-        <div className=' flex justify-between -mt-10 text-gray-800 text-xs'>
+        <div className='flex justify-between -mt-10 text-gray-800 text-xs'>
                 <div>
                     <span className='ml-48 '>
                     Copyright © 2022
                     </span>
                 </div>
-                <div className='flex gap-2 relative -left-36'>
+                <div className='flex gap-2 relative -left-36 '>
                     <span>
                     Terms & Conditions
                     </span>
