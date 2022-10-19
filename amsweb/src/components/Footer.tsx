@@ -3,7 +3,7 @@ import React from 'react'
 const Footer = () => {
   return (
     <div>
-        <div className='bg-gray-100 p-24 flex justify-around text-gray-900 text-sm'>
+        <div className='bg-gray-100 bg-cover p-24 flex justify-around text-gray-900 text-sm md:flex-col md:text-center'>
             <div>
                 <ul className='list-none'>
                     <li className=' mb-3 text-xl'>ASM</li>
@@ -41,9 +41,9 @@ const Footer = () => {
                 </ul>
             </div>
         </div>
-        <div className='flex justify-between -mt-10 text-gray-800 text-xs'>
+        <div className='flex justify-between -mt-10 text-gray-800 text-xs md:hidden'>
                 <div>
-                    <span className='ml-48 '>
+                    <span className='ml-48 md:ml-0'>
                     Copyright © 2022
                     </span>
                 </div>

@@ -2,8 +2,8 @@ import React from 'react'
 
 export const Materials = () => {
     return (
-        <div className='flex -mt-52 justify-between items-center py-10'>
-            <div className='w-full md:w-1/2 px-4 md:px-12 xl:px-24'>
+        <div className='flex -mt-52 justify-between items-center py-10 md:-mt-0 md:flex-col'>
+            <div className='w-full md:w-full md:px-8 px-8 xl:px-24'>
                 <span className='relative -left-2 capitalize p-2 text-orange-300 font-semibold'>
                     materials
                 </span>
@@ -16,7 +16,7 @@ export const Materials = () => {
                 </p>
             </div>
 
-            <div className='flex justify-end gap-2 w-full md:w-1/2 relative left-10'>
+            <div className='flex justify-end gap-2 w-full md:w-1/2 relative left-0 md:hidden'>
                 <div className='flex flex-col gap-2'>
                     <img src="
                     https://images.pexels.com/photos/3757055/pexels-photo-3757055.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2

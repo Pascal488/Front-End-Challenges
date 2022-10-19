@@ -3,21 +3,20 @@ import React from 'react'
 const Aboutus = () => {
   return (
     <div>
-        <div    className='flex justify-around p-8 gap-5'>
-            <div className=''>
-           
-            <div className='relative -left-20 z-40'>
+        <div    className='flex justify-around p-8 gap-5 md:flex md:flex-col'>
+
+            <div className='md:hidden'> 
+            <div className='relative -left-20 z-40 '>
                 <img src="
                  https://images.pexels.com/photos/7598126/pexels-photo-7598126.jpeg?auto=compress&cs=tinysrgb&w=800
                 " alt=""  className='max-w-[70%] p-0 rounded-2xl   '/>
             
             </div>
             <div className='relative -top-72 left-[390px] bg-gray-100 w-32 h-64 z-0 rounded-2xl '>
-
             </div>
             </div>
 
-            <div className='relative -left-36 '>
+            <div className='relative -left-36 md:-left-0'>
                 <span className='relative -left-2 capitalize p-2 text-orange-300 font-semibold'>
                 Experiences
 
