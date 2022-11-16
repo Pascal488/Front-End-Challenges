@@ -1,6 +1,15 @@
 import React from 'react'
 
 const Testmonio = () => {
+    const commonstyles = {
+        backgroundImage: "url('https://images.pexels.com/photos/164595/pexels-photo-164595.jpeg?cs=srgb&dl=pexels-pixabay-164595.jpg&fm=jpg&_gl=1*gwoqpz*_ga*MTUxMjM0NjE5NC4xNjY2MDc5MDM2*_ga_8JE65Q40S6*MTY2NjA3OTAzOS4xLjEuMTY2NjA4MDcwNS4wLjAuMA..')",
+            backgroundRepeat: "no-repeat",
+            backgroundSize: "cover",
+            backgroundOrigin: "center",
+            height:"320px",
+            width:"255px",
+            borderRadius:"12px"
+    }
   return (
     <div className='p-5 h-auto mb-5 '>
     <div className='mb-5'>
@@ -15,15 +24,7 @@ const Testmonio = () => {
     <div className='flex justify-center gap-5 md:flex-col md:justify-center'>
         
         <div className=' md:m-auto'
-        style={{
-            backgroundImage: "url('https://images.pexels.com/photos/164595/pexels-photo-164595.jpeg?cs=srgb&dl=pexels-pixabay-164595.jpg&fm=jpg&_gl=1*gwoqpz*_ga*MTUxMjM0NjE5NC4xNjY2MDc5MDM2*_ga_8JE65Q40S6*MTY2NjA3OTAzOS4xLjEuMTY2NjA4MDcwNS4wLjAuMA..')",
-            backgroundRepeat: "no-repeat",
-            backgroundSize: "cover",
-            backgroundOrigin: "center",
-            height:"320px",
-            width:"255px",
-            borderRadius:"12px"
-        }}
+        style={commonstyles}
         >   
         <div className='bg-white w-[230px] h-[150px] relative top-40 left-3  rounded-xl shadow-xl'>
             <div className='text-center text-xs'>
@@ -45,15 +46,7 @@ const Testmonio = () => {
         </div>    
         </div>
         <div className=' md:m-auto'
-        style={{
-            backgroundImage: "url('https://images.pexels.com/photos/164595/pexels-photo-164595.jpeg?cs=srgb&dl=pexels-pixabay-164595.jpg&fm=jpg&_gl=1*gwoqpz*_ga*MTUxMjM0NjE5NC4xNjY2MDc5MDM2*_ga_8JE65Q40S6*MTY2NjA3OTAzOS4xLjEuMTY2NjA4MDcwNS4wLjAuMA..')",
-            backgroundRepeat: "no-repeat",
-            backgroundSize: "cover",
-            backgroundOrigin: "center",
-            height:"320px",
-            width:"255px",
-            borderRadius:"12px"
-        }}
+        style={commonstyles}
         >   
         <div className='bg-white w-[230px] h-[150px] relative top-40 left-3 rounded-xl shadow-xl'>
             <div className='text-center text-xs'>
@@ -75,15 +68,7 @@ const Testmonio = () => {
         </div>    
         </div>
         <div className=' md:m-auto'
-        style={{
-            backgroundImage: "url('https://images.pexels.com/photos/164595/pexels-photo-164595.jpeg?cs=srgb&dl=pexels-pixabay-164595.jpg&fm=jpg&_gl=1*gwoqpz*_ga*MTUxMjM0NjE5NC4xNjY2MDc5MDM2*_ga_8JE65Q40S6*MTY2NjA3OTAzOS4xLjEuMTY2NjA4MDcwNS4wLjAuMA..')",
-            backgroundRepeat: "no-repeat",
-            backgroundSize: "cover",
-            backgroundOrigin: "center",
-            height:"320px",
-            width:"255px",
-            borderRadius:"12px"
-        }}
+        style={commonstyles}
         >   
         <div className='bg-white w-[230px] h-[150px] relative top-40 left-3 rounded-xl shadow-xl'>
             <div className='text-center text-xs'>
