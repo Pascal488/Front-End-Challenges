@@ -1,4 +1,7 @@
 import React from 'react'
+import { BsFacebook, BsLinkedin, BsPinterest, BsTwitter } from "react-icons/bs";
+import {AiOutlineInstagram} from "react-icons/ai"
+
 
 const Footer = () => {
   return (
@@ -32,12 +35,21 @@ const Footer = () => {
                     
                 </ul>
             </div>
-            <div>
-                <ul className='list-none '>
+            <div className='md:flex md:justify-center'>
+                <ul className='flex flex-col  list-none '>
                     <li className='text-xl mb-3 text-orange-400' >Follow Us</li>
+                    <span className='flex items-center gap-1'>
+                        <BsFacebook/>
                     <li>Facebook</li>
+                    </span>
+                    <span className='flex items-center gap-1'>
+                        <BsTwitter/>
                     <li>Twitter</li>
+                    </span>
+                    <span className='flex items-center gap-1'>
+                    <AiOutlineInstagram/>
                     <li>Instagram</li>
+                    </span>
                 </ul>
             </div>
         </div>
